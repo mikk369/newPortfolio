@@ -11,6 +11,12 @@
   max-width: 60%;
   border-radius: 10%;
 }
+
+@media only screen and (max-width: 768px) {
+  .personal-picture-div {
+    margin-top: 48px;
+  }
+}
 .project-img img {
   max-width: 100%;
 }
@@ -34,6 +40,10 @@
 
 .item-card {
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.3);
+}
+.logo-wrapper img {
+  width: 30px;
+  height: auto;
 }
 .container-list-items li i {
   font-size: 30px;
