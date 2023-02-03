@@ -17,6 +17,11 @@
     margin-top: 48px;
   }
 }
+@media (max-width: 1024px) {
+  .logo-wrapper {
+    flex-wrap: wrap;
+  }
+}
 .project-img img {
   max-width: 100%;
 }
