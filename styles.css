@@ -3,10 +3,6 @@
   border-radius: 10%;
 }
 
-.fade-in-text {
-  opacity: 1; /* make the text invisible */
-  animation: fade-in 3s ease-in; /* animate the text over 1 second with an ease-in effect */
-}
 .personal-picture-div img {
   max-width: 60%;
   border-radius: 10%;
@@ -25,15 +21,7 @@
 .project-img img {
   max-width: 100%;
 }
-/* keyframe animation for fading in the text */
-@keyframes fade-in {
-  0% {
-    opacity: 0; /* start with 0% opacity */
-  }
-  100% {
-    opacity: 1; /* end with 100% opacity */
-  }
-}
+
 .nav-item {
   font-size: 30px;
 }
