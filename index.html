@@ -23,9 +23,6 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0EX9Y8P665"></script>
-
   <body>
     <!-- NAV  -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 lead">
@@ -87,6 +84,9 @@
       </section>
       <!-- CARD-DIV -->
       <section class="card-section" id="my-projects">
+        <div class="counter-wrapper">
+          <div id="counter"></div>
+        </div>
             <div class="row text-center g-5 m-5 card-row">
                 <div class="col-lg-3 col-md-6">
                   <div class="card bg-dark text-light item-card ">
@@ -219,5 +219,10 @@
       
       <footer class="bg-dark text-light text-center fs-2">Contact: Mikk.Ereline@gmail.com <a href="https://www.facebook.com/mikk.ereline" aria-label="Link to my Facebook profile"><i class="bi bi-facebook"></i></a></footer>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- Include the Firebase and Firestore scripts -->
+    <script type="module">
+      import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js'</script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+      <script type="text/babel" src="./dist/bundle.js"></script>
   </body>
 </html>
